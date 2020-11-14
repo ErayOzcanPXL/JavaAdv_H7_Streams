@@ -1,4 +1,4 @@
-package be.pxl.ja.exercise1;
+package main.java.be.pxl.ja.exercise1;
 
 import java.time.LocalDate;
 
@@ -30,4 +30,9 @@ public class Student {
 	public LocalDate getDateOfBirth() {
 		return dateOfBirth;
 	}
+
+    @Override
+    public String toString() {
+        return getName();
+    }
 }
