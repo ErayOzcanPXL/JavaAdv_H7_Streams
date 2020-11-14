@@ -1,4 +1,6 @@
-package be.pxl.ja;
+package test.java.be.pxl.ja;
+
+import be.pxl.ja.Participant;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
